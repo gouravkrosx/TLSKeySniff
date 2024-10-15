@@ -1,0 +1,59 @@
+strace: Process 1535632 attached
+strace: Process 1535633 attached
+strace: Process 1535634 attached
+strace: Process 1535635 attached
+strace: Process 1535636 attached
+[pid 1535631] bpf(BPF_MAP_CREATE, {map_type=BPF_MAP_TYPE_ARRAY, key_size=4, value_size=4, max_entries=1, map_flags=0, inner_map_fd=0, map_name="", map_ifindex=0, btf_fd=0, btf_key_type_id=0, btf_value_type_id=0, btf_vmlinux_value_type_id=0, map_extra=0}, 72) = 3
+Ebpf Loader PID: 1535631
+strace: Process 1535637 attached
+strace: Process 1535638 attached
+[pid 1535637] bpf(BPF_MAP_CREATE, {map_type=BPF_MAP_TYPE_ARRAY, key_size=4, value_size=4, max_entries=1, map_flags=0, inner_map_fd=0, map_name="feature_test", map_ifindex=0, btf_fd=0, btf_key_type_id=0, btf_value_type_id=0, btf_vmlinux_value_type_id=0, map_extra=0}, 72) = 3
+[pid 1535637] bpf(BPF_MAP_CREATE, {map_type=BPF_MAP_TYPE_ARRAY, key_size=4, value_size=4, max_entries=1, map_flags=0, inner_map_fd=0, map_name=".test", map_ifindex=0, btf_fd=0, btf_key_type_id=0, btf_value_type_id=0, btf_vmlinux_value_type_id=0, map_extra=0}, 72) = 3
+[pid 1535637] bpf(BPF_BTF_LOAD, {btf="\237\353\1\0\30\0\0\0\0\0\0\0\20\0\0\0\20\0\0\0\1\0\0\0\0\0\0\0\0\0\0\1"..., btf_log_buf=NULL, btf_size=41, btf_log_size=0, btf_log_level=0}, 32) = 3
+[pid 1535637] bpf(BPF_BTF_LOAD, {btf="\237\353\1\0\30\0\0\0\0\0\0\0\30\0\0\0\30\0\0\0\3\0\0\0\1\0\0\0\0\0\0\f"..., btf_log_buf=NULL, btf_size=51, btf_log_size=0, btf_log_level=0}, 32) = 3
+[pid 1535637] bpf(BPF_BTF_LOAD, {btf="\237\353\1\0\30\0\0\0\0\0\0\0\30\0\0\0\30\0\0\0\3\0\0\0\1\0\0\0\1\0\0\f"..., btf_log_buf=NULL, btf_size=51, btf_log_size=0, btf_log_level=0}, 32) = 3
+[pid 1535637] bpf(BPF_BTF_LOAD, {btf="\237\353\1\0\30\0\0\0\0\0\0\0\30\0\0\0\30\0\0\0\6\0\0\0\0\0\0\0\1\0\0\23"..., btf_log_buf=NULL, btf_size=54, btf_log_size=0, btf_log_level=0}, 32) = -1 EINVAL (Invalid argument)
+[pid 1535637] bpf(BPF_BTF_LOAD, {btf="\237\353\1\0\30\0\0\0\0\0\0\0\20\2\0\0\20\2\0\0#\3\0\0*\2\0\0\1\0\0\f"..., btf_log_buf=NULL, btf_size=1355, btf_log_size=0, btf_log_level=0}, 32) = 3
+[pid 1535635] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535638] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535635] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+strace: Process 1535641 attached
+[pid 1535637] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535638] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535638] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535638] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535638] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535634] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535634] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535634] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535634] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535634] --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=1535631, si_uid=0} ---
+[pid 1535634] bpf(BPF_PROG_LOAD, {prog_type=BPF_PROG_TYPE_KPROBE, insn_cnt=6, insns=0x400069de60, license="GPL", log_level=0, log_size=0, log_buf=NULL, kern_version=KERNEL_VERSION(0, 0, 0), prog_flags=0, prog_name="", prog_ifindex=0, expected_attach_type=BPF_CGROUP_INET_INGRESS, prog_btf_fd=0, func_info_rec_size=0, func_info=NULL, func_info_cnt=0, line_info_rec_size=0, line_info=NULL, line_info_cnt=0, attach_btf_id=0, attach_prog_fd=0, fd_array=NULL}, 144) = 7
+[pid 1535634] bpf(BPF_PROG_LOAD, {prog_type=BPF_PROG_TYPE_KPROBE, insn_cnt=102, insns=0x4001132000, license="GPL", log_level=0, log_size=0, log_buf=NULL, kern_version=KERNEL_VERSION(5, 15, 131), prog_flags=0, prog_name="_PyTime_GetSyst", prog_ifindex=0, expected_attach_type=BPF_CGROUP_INET_INGRESS, prog_btf_fd=3, func_info_rec_size=8, func_info=0x400001cc80, func_info_cnt=1, line_info_rec_size=16, line_info=0x400000c700, line_info_cnt=13, attach_btf_id=0, attach_prog_fd=0, fd_array=NULL}, 144) = 7
+[pid 1535634] bpf(BPF_BTF_LOAD, {btf="\237\353\1\0\30\0\0\0\0\0\0\0(\0\0\0(\0\0\0\30\0\0\0\1\0\0\0\0\0\0\10"..., btf_log_buf=NULL, btf_size=88, btf_log_size=0, btf_log_level=0}, 32) = 3
+[pid 1535634] bpf(BPF_MAP_CREATE, {map_type=BPF_MAP_TYPE_HASH, key_size=4, value_size=4, max_entries=1, map_flags=0, inner_map_fd=0, map_name="app_pid_map", map_ifindex=0, btf_fd=3, btf_key_type_id=1, btf_value_type_id=1, btf_vmlinux_value_type_id=0, map_extra=0}, 72) = 8
+[pid 1535634] bpf(BPF_PROG_LOAD, {prog_type=BPF_PROG_TYPE_KPROBE, insn_cnt=2, insns=0x40013b05f0, license="MIT", log_level=0, log_size=0, log_buf=NULL, kern_version=KERNEL_VERSION(5, 15, 131), prog_flags=0, prog_name="probe_bpf_perf_", prog_ifindex=0, expected_attach_type=BPF_CGROUP_INET_INGRESS, prog_btf_fd=0, func_info_rec_size=0, func_info=NULL, func_info_cnt=0, line_info_rec_size=0, line_info=NULL, line_info_cnt=0, attach_btf_id=0, attach_prog_fd=0, fd_array=NULL}, 144) = 9
+[pid 1535634] bpf(BPF_LINK_CREATE, {link_create={prog_fd=9, target_fd=0, attach_type=BPF_PERF_EVENT, flags=0}}, 64) = -1 EBADF (Bad file descriptor)
+[pid 1535634] bpf(BPF_LINK_CREATE, {link_create={prog_fd=7, target_fd=3, attach_type=BPF_PERF_EVENT, flags=0}}, 64) = -1 EINVAL (Invalid argument)
+2024/01/30 11:37:07 creating uretprobe: cannot create bpf perf link: invalid argument
+[pid 1535636] +++ exited with 1 +++
+[pid 1535633] +++ exited with 1 +++
+[pid 1535637] +++ exited with 1 +++
+[pid 1535634] +++ exited with 1 +++
+[pid 1535641] +++ exited with 1 +++
+[pid 1535638] +++ exited with 1 +++
+[pid 1535632] +++ exited with 1 +++
+[pid 1535635] +++ exited with 1 +++
++++ exited with 1 +++

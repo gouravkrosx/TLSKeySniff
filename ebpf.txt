@@ -1,0 +1,40 @@
+           <...>-610799  [002] ....1 67126.920829: bpf_trace_printk: Master Secret: b04b980
+
+           <...>-610799  [002] ....1 67126.920893: bpf_trace_printk: Handshake Traffic Hash: b04b9c0
+
+           <...>-610799  [002] ....1 67126.920894: bpf_trace_printk: Client Application Traffic Secret: b04ba00
+
+           <...>-610799  [002] ....1 67126.920895: bpf_trace_printk: Server Application Traffic Secret: b04ba40
+
+           <...>-610799  [002] ....1 67126.920895: bpf_trace_printk: Exporter Master Secret: b04ba80
+
+         python3-634661  [000] ....1 69613.098372: bpf_trace_printk: Master Secret: eff8e988
+
+         python3-634661  [000] ....1 69613.098734: bpf_trace_printk: Handshake Traffic Hash: eff8e9c8
+
+         python3-634661  [000] ....1 69613.098735: bpf_trace_printk: Client Application Traffic Secret: eff8ea08
+
+         python3-634661  [000] ....1 69613.098735: bpf_trace_printk: Server Application Traffic Secret: eff8ea48
+
+         python3-634661  [000] ....1 69613.098736: bpf_trace_printk: Exporter Master Secret: eff8ea88
+
+         python3-638015  [000] ....1 69882.615610: bpf_trace_printk: Master Secret: eff8e988
+
+         python3-638015  [000] ....1 69882.615637: bpf_trace_printk: Handshake Traffic Hash: eff8e9c8
+
+         python3-638015  [000] ....1 69882.615637: bpf_trace_printk: Client Application Traffic Secret: eff8ea08
+
+         python3-638015  [000] ....1 69882.615638: bpf_trace_printk: Server Application Traffic Secret: eff8ea48
+
+         python3-638015  [000] ....1 69882.615638: bpf_trace_printk: Exporter Master Secret: eff8ea88
+
+           <...>-642128  [000] ....1 70073.749880: bpf_trace_printk: Master Secret: eff8e988
+
+           <...>-642128  [000] ....1 70073.749922: bpf_trace_printk: Handshake Traffic Hash: eff8e9c8
+
+           <...>-642128  [000] ....1 70073.749922: bpf_trace_printk: Client Application Traffic Secret: eff8ea08
+
+           <...>-642128  [000] ....1 70073.749923: bpf_trace_printk: Server Application Traffic Secret: eff8ea48
+
+           <...>-642128  [000] ....1 70073.749923: bpf_trace_printk: Exporter Master Secret: eff8ea88
+
